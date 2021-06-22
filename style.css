@@ -9,6 +9,23 @@ ul {
   list-style-type: none;
 }
 
+p {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   background-image: url(images/purty_wood.png);
   font-family: 'Noto Sans KR', sans-serif;
@@ -65,9 +82,6 @@ body {
   margin-bottom: 0.5rem; /* 기본 글자 1칸 크기 */
 }
 
-.header_group {
-
-}
 .header_group .copy {
   text-transform: uppercase;
   font-size: small;
@@ -117,4 +131,47 @@ body {
   color: #000;
   font-weight: 500;
   font-size: 1.4rem;
+}
+
+#contents {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  column-count: 3;
+}
+
+article {
+  break-after: column;
+}
+
+article img {
+  width: 100%;
+}
+
+.today img {
+  width: 100px;
+}
+
+article:first-child h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+article:nth-child(2) h2 span {
+  font-weight: normal;
+}
+
+.arrow {
+  font-size: small;
+}
+
+.more_btn {
+  text-transform: uppercase;
+  color: #444;
 }
